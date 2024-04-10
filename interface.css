@@ -1,0 +1,137 @@
+.all {
+    width: 800px;
+    margin-left: 100px;
+    padding-top: 40px;
+    }
+.top {
+    margin-bottom: 20px;
+    height: 100px;
+    padding: 10px 0;
+}
+.first a{
+    font-weight: 100;
+    color: rgb(202, 4, 202);
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+} 
+.search-section {
+    width: 300px;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    height: 40px;
+    float: right;
+    align-items: center;   
+    padding: 10px 10px 0 20px;
+    margin-top: 0px;
+}
+.searcher {
+    float: left;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    color: red;
+    margin-right: 30px;
+}
+ #submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background-color: #A751D6;
+
+    }
+.top-bar {
+    height: 50px;
+    background: linear-gradient(#F8F594, #D5D533);
+    margin-top: -60px;
+    padding: 5px 0;
+     
+}
+.top-bar ul li {
+    float: left;
+    padding: 0 20px;
+    height: 20px;
+    border-right: 1px solid purple;
+      }
+.top-bar ul li:last-child{
+    border-right: none;
+}
+.top-bar ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: purple;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease; 
+    -o-transition: font-size 0.3s ease; -ms-transition: font-size 0.3s ease; transition: font-size 0.3s ease;
+}
+.top-bar ul li a:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+.bar-home {
+    
+    margin-right: 30px;
+    color: rgb(202, 4, 202);
+    font-weight: 700;
+}
+.bar-titles {
+    flex: 1;
+    color: blueviolet;
+}
+.about {
+    background: linear-gradient(#E5F2BB, #B7E952);
+    color: rgb(44, 55, 24);
+    margin-top: 16px;
+    padding: 30px 0px 20px 15px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.talk {
+    font-size: 20px;
+    margin-right: 15px; 
+}
+.sidebar {
+    border: solid black 1px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 350px;
+    height: 200px;
+    color: blueviolet;
+    margin-top: 15px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;    
+}
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+}
+#left {
+    float: left;
+}
+#left ul li {
+    padding-bottom: 6px;
+}
+#right {
+    float: right;
+}
+#right ul li{
+    padding-bottom: 10px;
+}
+
+
+.footer {
+    background-color: rgb(248, 248, 86);
+    margin-top: 250px;
+    padding: 20px 20px 20px 250px;
+}
